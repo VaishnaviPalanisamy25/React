@@ -1,0 +1,29 @@
+{
+  "name": "swiggy-clone",
+  "version": "1.0.0",
+  "description": "learning react",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VaishnaviPalanisamy25/React.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VaishnaviPalanisamy25/React/issues"
+  },
+  "homepage": "https://github.com/VaishnaviPalanisamy25/React#readme",
+  "devDependencies": {
+    "parcel": "^2.10.1",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
