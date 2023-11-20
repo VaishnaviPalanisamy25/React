@@ -1,17 +1,23 @@
 .header{
         display: flex;
-        background-color: #98D7C2;
+        /* background-color: #98D7C2; */
         justify-content: space-between;
         border-bottom: 2px solid #2E765E;
-        width:100vw;
+        width:100%;
+        border-radius: 5px;
+        background: #34e89e; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #34e89e, #0f3443); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #34e89e, #0f3443);
 }
 
 .logo{
         width: 100px;
+        border-radius: 50%;
+        margin: 10px;
 }
 .nav-items {
     padding: 5px;
-    margin-right: 20px;
+    margin-right: 30px;
     
 }
 .nav-items >ul{
@@ -33,10 +39,39 @@
 .body{
     display: flex;
     border:none;
-    background-color: #DDFFE7;
-    width: 100vw;
+    background: white;
+    width: 100%;
     flex-direction: column;
-    height: 80vh;
+    height: 100%;
+    border-radius: 5px; 
+}
+.filter-btn{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #DDFFE7;
+    background: #34e89e; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #34e89e, #0f3443); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #34e89e, #0f3443);
+    cursor: pointer;
+}
+.reset-btn{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #DDFFE7;
+    background: #34e89e; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #34e89e, #0f3443); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #34e89e, #0f3443);
+    cursor: pointer;
+}
+
+.reset-btn:hover{
+    background-color: #B6E2D3;
+}
+
+.filter-btn:hover{
+    background-color: #B6E2D3;
 }
 
 .search-bar{
@@ -64,18 +99,22 @@ h3{
     border: 2px solid #2E765E;
     border-radius: 5px;
     background-color: #f0f0f0;
-    width:200px;
+    width:190px;
     padding:5px;
     cursor: pointer;
     margin:5px;
     height: 60vh;
+    justify-content: space-evenly;
 }
 .res-card:hover{
-    background-color: white;
+    background-color: #B6E2D3;
     cursor: pointer;
 }
 
 .res-logo{
-    width:195px;
+    width:185px;
     margin:5px;
+    height: 150px;
+     border-radius: 10px;
+
 }
